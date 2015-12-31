@@ -43,7 +43,7 @@
   {{#if skipLabel}}
     {{> afFieldInput this.afFieldInputAtts}}
   {{else}}
-    <label {{ionicFieldLabelAtts}}>
+    <label {{ionicFieldLabelAtts}} data-required="{{required}}">
       {{#unless ionicFieldLabelAtts.placeholderOnly}}
         <span class="input-label">{{#if this.labelText}}{{this.labelText}}{{else}}{{afFieldLabelText name=this.name}}{{/if}}</span>
       {{/unless}}
