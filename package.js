@@ -1,7 +1,7 @@
 Package.describe({
   name: "insightfil:autoform-ionic",
   summary: "Ionic theme for Autoform",
-  version: "0.1.9",
+  version: "0.1.10",
   git: "https://github.com/artaic/autoform-ionic.git"
 });
 
