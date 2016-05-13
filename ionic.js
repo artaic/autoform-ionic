@@ -133,6 +133,9 @@ var selectHelpers = {
       atts.selected = "";
     }
     return atts;
+  },
+  isRequired: function afSelectIsRequired() {
+    return _.has(this.atts, 'required');
   }
 };
 Template["afSelect_ionic"].helpers(selectHelpers);

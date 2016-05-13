@@ -196,7 +196,7 @@
 </template>
 
 <template name="afSelect_ionic">
-  <label class="item item-input item-select item-text-wrap" data-required="{{#if this.atts.required}}true{{/if}}">
+  <label class="item item-input item-select item-text-wrap" data-required="{{isRequired}}">
     <div class="input-label">
       {{afFieldLabelText name=this.name}}
     </div>
